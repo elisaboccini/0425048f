@@ -17,5 +17,3 @@ ggplot(alcoholconsumption, aes(x=country, y=total_litres_of_pure_alcohol, col=co
 
 
 
-
-
