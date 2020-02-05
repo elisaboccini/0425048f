@@ -1,5 +1,5 @@
 #data acquisition
-x <- read.csv('drinks.csv')             # read file 
+x <- read.csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv', sep=',')
 head(x)  
 #add a rda file
 save(x,file="/Users/francescagraziaradatti/Documents/GitHub/0425048f/data/alcoholconsumption.rda")
