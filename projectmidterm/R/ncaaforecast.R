@@ -1,6 +1,8 @@
 #data acquisition
-ncaaforecast<- read.csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/historical-ncaa-forecasts/historical-538-ncaa-tournament-model-results.csv', sep = ',')
-head(ncaaforecast)
+# ncaaforecast<- read.csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/historical-ncaa-forecasts/historical-538-ncaa-tournament-model-results.csv', sep = ',')
+# head(ncaaforecast)
+
+"/Users/francescagraziaradatti/Documents/GitHub/0425048f/projectmidterm"
 
 #data visualization:ggplot2
 install.packages("ggplot2")
