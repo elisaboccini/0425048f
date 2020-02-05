@@ -16,4 +16,3 @@ ggplot(alcoholconsumption, aes(country)) + geom_bar(stat="count")
 ggplot(alcoholconsumption, aes(x=country, y=total_litres_of_pure_alcohol, col=country)) + geom_point()
 
 
-
