@@ -1,10 +1,10 @@
 Package: Progettofgr
 Type: Package
-Title: sample package
+Title: alcohol consumption package
 Version: 0.1.0
-Author: Francesca
-Maintainer: Francesca Radatti <francescaradatti97@gmail.com>
-Description: Sample Package for xx.
+Author: Francesca Radatti
+Maintainer: Francesca Grazia Radatti <francescaradatti97@gmail.com>
+Description: Alcohol consumption Package for xx.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

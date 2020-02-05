@@ -1,4 +1,4 @@
-# Sample Package
+# Alcohol Consumption Package
 
 This package provides xx
 
@@ -17,10 +17,8 @@ The package provides xx
 
 ```R
 # load the package
-require(sample)
+require(progettofgr)
 ```
 
-### Grade
 
-xx
 
