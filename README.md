@@ -6,7 +6,7 @@ This package provides xx
 
 ```R
 # first install the R package "devtools" if not installed
-devtools::install_github('unimi-dse/15f07018')
+devtools::install_github('unimi-dse/0425048f')
 ```
 
 ## Dataset
