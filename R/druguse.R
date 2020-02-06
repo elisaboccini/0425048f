@@ -2,13 +2,10 @@
 
 #data acquisition
 
-druguse <- read.csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv", sep=",")
+druguse <- read.csv("drug-use-by-age.csv")
 head(druguse)
-save(druguse, file="/Users/francescagraziaradatti/Documents/GitHub/0425048f/data/druguse.rda")
-load("~/Documents/GitHub/0425048f/data/druguse.rda")
-usethis::use_data(druguse) 
-
 #data visualization
+
 
 plotvisualization <- function() {
 
