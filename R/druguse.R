@@ -2,23 +2,42 @@
 
 #data acquisition
 
-druguse <- read.csv('drug-use-by-age.csv')
+druguse <- read.csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv", sep=",")
 head(druguse)
-
-
-
+save(druguse, file="/Users/francescagraziaradatti/Documents/GitHub/0425048f/data/druguse.rda")
+load("~/Documents/GitHub/0425048f/data/druguse.rda")
+usethis::use_data(druguse) 
 
 #data visualization
-library(plotly)
-library(dplyr)
 
-p<- plot_ly(x="age", type="histogram")
+plotvisualization <- function() {
+
+require(devtools)
+require(tidyverse)
+require(plotly)
+require(ggplot2)
+names(druguse)
+class(druguse)
+p <- plotly::plot_ly(druguse, labels = ~druguse$crack.frequency, type = 'pie') %>%
+  layout(title = "drug-use-by-age",
+         xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+         yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
 p
+}
+plotvisualization ()
+
 #Data Analysis: sammury stats for all variables in the data set:
 summary(druguse)
 #Option 2: using subset
 druguse.sub0 <- subset(druguse, select=c("tranquilizer.use","marijuana.use"))
 summary(druguse.sub0)
+
+#Data Analisys: linear regression model
+regnalisys <- function () { 
+reg <- lm(druguse$tranquilizer.use~druguse$age)  
+reg_1 <- lm(druguse$stimulant.use~druguse$age)
+}
+
 
 
 
