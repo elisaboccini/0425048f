@@ -10,17 +10,18 @@ str(druguse)
 
 
 #data visualization
-install.packages("ggplot2",repos = "https://cran.rstudio.com" )
-require(ggplot2)
-ggplot(druguse, aes(tranquilizer.use)) +
-  geom_bar(stat="count")
+library(plotly)
+library(dplyr)
 
+p<- plot_ly(x="age", type="histogram")
+p
 
 #Data Analysis: sammury stats for all variables in the data set:
 summary(druguse)
 #Option 2: using subset
 druguse.sub0 <- subset(druguse, select=c("tranquilizer.use","marijuana.use"))
 summary(druguse.sub0)
+
 
 
 
