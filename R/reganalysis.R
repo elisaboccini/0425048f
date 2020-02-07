@@ -9,5 +9,5 @@
 #' 
 reg_analysis <- function (druguse) { 
   reg <- lm(druguse$tranquilizer.use~druguse$age) 
-  reg_1 <- lm(druguse$stimulant.use~druguse$age)
+ 
 }
