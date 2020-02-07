@@ -17,13 +17,13 @@
 #require(ggplot2)
 #names(druguse)
 # class(druguse)
-# p <- plotly::plot_ly(druguse, labels = ~druguse$crack.frequency, type = 'pie') %>%
-#   layout(title = "drug-use-by-age",
-#          xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-#          yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+#p <- plotly::plot_ly(druguse, labels = ~druguse$crack.frequency, type = 'pie') %>%   layout(title = "drug-use-by-age",
+                                                                                            #        xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+         #         yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
 # p
 # }
-# plotvisualization ()
+
+#plotvisualization
 # 
 # #Data Analysis: summary stats for all variables in the data set:
 # summary(druguse)
@@ -33,7 +33,7 @@
 # summary(druguse.sub0)
 # 
 # #Data Analisys: linear regression model
-# regnalysis <- function () { 
+# regn_analysis <- function () { 
 # reg <- lm(druguse$tranquilizer.use~druguse$age)  
 # reg_1 <- lm(druguse$stimulant.use~druguse$age)
 # }
