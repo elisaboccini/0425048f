@@ -23,14 +23,14 @@ p
 }
 plotvisualization ()
 
-#Data Analysis: sammury stats for all variables in the data set:
+#Data Analysis: summary stats for all variables in the data set:
 summary(druguse)
 #Option 2: using subset
 druguse.sub0 <- subset(druguse, select=c("tranquilizer.use","marijuana.use"))
 summary(druguse.sub0)
 
 #Data Analisys: linear regression model
-regnalisys <- function () { 
+regnalysis <- function () { 
 reg <- lm(druguse$tranquilizer.use~druguse$age)  
 reg_1 <- lm(druguse$stimulant.use~druguse$age)
 }
