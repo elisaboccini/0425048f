@@ -6,7 +6,7 @@
 #' 
 #' @param druguse data.frame
 #' 
-#' 
+#' @return pie chart
 #' @export
 #'
 #' 
