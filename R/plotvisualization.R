@@ -18,6 +18,7 @@
 #'  
 #' 
 plotvisualization <-function(druguse) {
+  
   p <- plotly::plot_ly(druguse, labels = ~druguse$crack.frequency, type = 'pie') %>%
     plotly::layout(title = 'Drug use by crack frequency', 
            xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),

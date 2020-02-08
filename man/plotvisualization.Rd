@@ -9,6 +9,9 @@ plotvisualization(druguse)
 \arguments{
 \item{druguse}{data.frame}
 }
+\value{
+pie chart
+}
 \description{
 plotvisualization
 }

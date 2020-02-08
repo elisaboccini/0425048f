@@ -7,7 +7,7 @@
 #' 
 #' 
 #' @export
-#' @importFrom stats model.frame lm
+#' @importFrom stats lm
 #' 
 #' 
 reg_analysis <- function(druguse) { 
