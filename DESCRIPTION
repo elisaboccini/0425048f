@@ -8,5 +8,5 @@ Description: Drug Use Package for xx.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: devtools, plotly, ggplot2, tidyverse
+Imports: devtools, plotly, tidyverse, magrittr
 RoxygenNote: 7.0.2

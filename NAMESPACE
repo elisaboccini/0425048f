@@ -2,3 +2,7 @@
 
 export(plotvisualization)
 export(reg_analysis)
+importFrom(graphics,layout)
+importFrom(magrittr,"%>%")
+importFrom(stats,lm)
+importFrom(stats,model.frame)

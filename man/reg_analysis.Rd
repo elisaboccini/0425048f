@@ -6,6 +6,9 @@
 \usage{
 reg_analysis(druguse)
 }
+\arguments{
+\item{druguse}{ranquilizer.use druguse$age}
+}
 \description{
 reganalysis
 }

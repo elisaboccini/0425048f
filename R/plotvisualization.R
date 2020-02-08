@@ -4,23 +4,25 @@
 #' 
 #' The function needs the argument druguse
 #' 
+#' @param druguse druguse$crack.frequency
+#' 
 #' 
 #' @export
+#'
 #' 
 #' 
+#' @importFrom graphics layout
+#' @importFrom magrittr %>%  
 #' 
-#' 
+#'
 #'  
 #' 
-plotvisualization <- function(druguse) {
-
-  
+plotvisualization <-function(druguse) {
   p <- plotly::plot_ly(druguse, labels = ~druguse$crack.frequency, type = 'pie') %>%
-    layout(title = "drug-use-by-age",
+    plotly::layout(title = 'Drug use by crack frequency', 
            xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
            yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
-  p
+  return(p) 
 }
-
 
 

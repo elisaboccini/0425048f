@@ -6,6 +6,9 @@
 \usage{
 plotvisualization(druguse)
 }
+\arguments{
+\item{druguse}{druguse$crack.frequency}
+}
 \description{
 plotvisualization
 }
