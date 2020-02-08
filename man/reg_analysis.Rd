@@ -7,8 +7,8 @@
 reg_analysis(druguse)
 }
 \arguments{
-\item{druguse}{druguse$alcohol.use druguse$tranquilizer.use}
+\item{druguse}{data.frame}
 }
 \description{
-reganalysis
+Data Analisys: linear regression model
 }

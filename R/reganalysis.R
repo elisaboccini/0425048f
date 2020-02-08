@@ -1,17 +1,18 @@
 #' Data Analisys: linear regression model
-#' 
-#' reganalysis
 #'
-#' @param druguse druguse$alcohol.use druguse$tranquilizer.use
+#'
+#' @param druguse data.frame
 #' 
 #' 
 #' 
-#' @export
+#'
+#' 
 #' @importFrom stats lm
 #' 
+#' @export
 #' 
 reg_analysis <- function(druguse) { 
-  reg <- lm(druguse, druguse$alcohol.use~druguse$tranquilizer.use)
+  reg <- lm(data=druguse, druguse$alcohol.use~druguse$tranquilizer.use)
   sumreg <- summary(reg)
   return(sumreg)
 }
