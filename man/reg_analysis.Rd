@@ -7,7 +7,7 @@
 reg_analysis(druguse)
 }
 \arguments{
-\item{druguse}{data.frame}
+\item{druguse}{druguse$alcohol.use druguse$tranquilizer.use}
 }
 \description{
 reganalysis

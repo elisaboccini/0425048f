@@ -2,7 +2,7 @@
 #' 
 #' reganalysis
 #'
-#' @param druguse data.frame
+#' @param druguse druguse$alcohol.use druguse$tranquilizer.use
 #' 
 #' 
 #' 
@@ -11,7 +11,6 @@
 #' 
 #' 
 reg_analysis <- function(druguse) { 
-  
   reg <- lm(druguse, druguse$alcohol.use~druguse$tranquilizer.use)
   sumreg <- summary(reg)
   return(sumreg)

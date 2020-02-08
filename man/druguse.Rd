@@ -42,6 +42,6 @@
 druguse
 }
 \description{
-Some Description about the dataset
+Description
 }
 \keyword{datasets}
