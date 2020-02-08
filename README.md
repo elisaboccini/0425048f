@@ -35,21 +35,6 @@ The function `plotvisualization(druguse)` provide a pie chart showing the drug u
 
 __Note__: The function requires the argument druguse insede. This argument represent the data frame used  to compute the visualization 
 
-### Fibonacci
-
-The function `fibonacci()` is implemented in C++ and computes the Fibonacci Sequence.
-
-```R
-fibonacci(15)
-```
-
-### Shiny App
-
-The function `sampleGUI()` runs a Graphical User Interface to evaluate the projects from https://github.com/unimi-dse 
-
-```R
-sampleGUI()
-```
 
 
 # load the package
