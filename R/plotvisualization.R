@@ -4,7 +4,7 @@
 #' 
 #' The function needs the argument druguse
 #' 
-#' @param druguse druguse$crack.frequency
+#' @param druguse data.frame
 #' 
 #' 
 #' @export

@@ -7,7 +7,7 @@
 plotvisualization(druguse)
 }
 \arguments{
-\item{druguse}{druguse$crack.frequency}
+\item{druguse}{data.frame}
 }
 \description{
 plotvisualization
