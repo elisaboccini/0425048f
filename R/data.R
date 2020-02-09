@@ -1,13 +1,15 @@
 #' @title Druguse dataset
-#' @description The dataset "druguse" provide the data about 13 drugs across 17 age groups.
+#' @description The dataset shows data about 13 drugs across 17 age groups.
+#' It contains real value-data for statistical porpuses. 
+#' 
 #' 
 #'  
 #' 
-#' @format data.frame
+#' @format data.frame with 17 observations(rows) and 28 variables(columns).
 #' \describe{
 #'   \item{age}{age}
 #'   \item{n}{n}
-#'   \item{alcohol.use}{Percentage of those in an age group who used alcohol in the past 12 months}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}\item{age}{age}
+#'   \item{alcohol.use}{Percentage of those in an age group who used alcohol in the past 12 months}
 #'   \item{alcohol.frequency}{Median number of times a user in an age group used alcohol in the past 12 months}
 #'   \item{marijuana.use}{Percentage of those in an age group who used marijuana in the past 12 months}
 #'   \item{marijuana.frequency}{Median number of times a user in an age group used marijuana in the past 12 months}

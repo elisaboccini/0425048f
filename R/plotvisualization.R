@@ -5,7 +5,7 @@
 #' 
 #' The function needs the argument "druguse".
 #' 
-#' The output is a piechart that show percentage of the crack frequency across the various groups.
+#' The output is a piechart that shows the percentage of the crack frequency across various age groups.
 #' 
 #' @author Francesca Grazia Radatti \email{francescaradatti97@gmail.com}
 #' 
