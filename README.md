@@ -17,12 +17,27 @@ devtools::install_github('unimi-dse/0425048f')
 
 The package provides a dataset containing the data about 13 drugs across 17 age groups. The data is taken by the following website: "https://github.com/fivethirtyeight/data/tree/master/drug-use-by-age""
 
+### Documentation 
+
+It's possible to view the whole documentation typing the following command: 
+
 ```R
 # dataset documentation
 ?Progettofgr::druguse
 ```
+### Require the datasete
+
+The following command is usefull to require the data set druguse.
+
+```R
+# dataset uploading
+?Progettofgr::druguse
+```
+
 
 ## Usage
+
+Firstly, after installing the packages, it's needed to require it:
 
 ```R
 # load the package

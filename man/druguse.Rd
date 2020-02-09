@@ -3,7 +3,7 @@
 \docType{data}
 \name{druguse}
 \alias{druguse}
-\title{Description}
+\title{Druguse dataset}
 \format{data.frame
 \describe{
   \item{age}{age}
@@ -42,6 +42,6 @@
 druguse
 }
 \description{
-Description
+The dataset "druguse" provide the data about 13 drugs across 17 age groups.
 }
 \keyword{datasets}

@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotvisualization.R
 \name{plotvisualization}
 \alias{plotvisualization}
-\title{Data Visualization using a pie chart with the plotly function}
+\title{plotvisualization function}
 \usage{
 plotvisualization(druguse)
 }
@@ -13,8 +13,13 @@ plotvisualization(druguse)
 pie chart
 }
 \description{
-plotvisualization
+The "plotvisualization" function is a smart way to represent how the drug use is dilueted by crack frequency using "plotly" package.
+It's necessary to import other packages(for istance "magrittr")
+
+The function needs the argument "druguse".
+
+The output is a piechart that show percentage of the crack frequency across the various groups.
 }
-\details{
-The function needs the argument druguse
+\author{
+Francesca Grazia Radatti \email{francescaradatti97@gmail.com}
 }

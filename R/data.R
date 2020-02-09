@@ -1,4 +1,5 @@
-#' Description
+#' @title Druguse dataset
+#' @description The dataset "druguse" provide the data about 13 drugs across 17 age groups.
 #' 
 #'  
 #' 
@@ -35,6 +36,6 @@
 #' }
 #'   
 #'   
-#'   
+#' 
 #' @source \url{https://github.com/fivethirtyeight/data/tree/master/drug-use-by-age}
 "druguse"

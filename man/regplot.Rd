@@ -2,7 +2,7 @@
 % Please edit documentation in R/regplot.R
 \name{regplot}
 \alias{regplot}
-\title{data visualization 2: do some plots with some different characteristics}
+\title{regplot function}
 \usage{
 regplot(druguse)
 }
@@ -10,5 +10,11 @@ regplot(druguse)
 \item{druguse}{data.frame}
 }
 \description{
-data visualization 2: do some plots with some different characteristics
+The "regplot" function is an easy way to visualize the dependence of the tranquilizer frequency on the tranquilizer use.
+
+The function needs the argument "druguse".
+The output shows a graph built using the "ggplo2 package"
+}
+\author{
+Francesca Grazia Radatti \email{francescaradatti97@gmail.com}
 }

@@ -1,5 +1,12 @@
-#' data visualization 2: do some plots with some different characteristics
+#' @title regplot function
+#' 
+#' @description The "regplot" function is an easy way to visualize the dependence of the tranquilizer frequency on the tranquilizer use.
 #'
+#' The function needs the argument "druguse".
+#' The output shows a graph built using the "ggplo2 package"
+#'  
+#' @author Francesca Grazia Radatti \email{francescaradatti97@gmail.com}
+#' 
 #' @export
 #' 
 #' @param druguse data.frame
